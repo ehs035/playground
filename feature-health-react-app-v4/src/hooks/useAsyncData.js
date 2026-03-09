@@ -1,0 +1,1 @@
+import { useEffect, useState } from 'react'; export function useAsyncData(loader,deps=[]){const [data,setData]=useState([]);const [isLoading,setIsLoading]=useState(true); useEffect(()=>{let mounted=true; setIsLoading(true); loader().then(r=>{if(mounted){setData(r);setIsLoading(false);}}); return ()=>{mounted=false};},deps); return {data,isLoading};}

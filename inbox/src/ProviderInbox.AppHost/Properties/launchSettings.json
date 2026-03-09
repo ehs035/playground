@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "ProviderInbox.AppHost": {
+      "commandName": "Project",
+      "applicationUrl": "https://localhost:17100;http://localhost:17101",
+      "environmentVariables": {
+        "ASPIRE_RESOURCE_SERVICE_ENDPOINT_URL": "https://localhost:17100",
+        "ASPIRE_DASHBOARD_OTLP_HTTP_ENDPOINT_URL": "http://localhost:18890",
+        "ASPIRE_ALLOW_UNSECURED_TRANSPORT": "true"
+      }
+    }
+  }
+}

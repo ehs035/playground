@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ProviderInbox.Service": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5080;https://localhost:7080",
+      "environmentVariables": { "ASPNETCORE_ENVIRONMENT": "Development" }
+    }
+  }
+}

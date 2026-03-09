@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image:
+    radial-gradient(circle at 0% 0%, rgba(34,211,238,0.10), transparent 20%),
+    radial-gradient(circle at 100% 0%, rgba(168,85,247,0.10), transparent 20%),
+    linear-gradient(180deg, #020617 0%, #08111f 45%, #020617 100%);
+}
+
+.glass {
+  @apply border border-white/10 bg-white/[0.04] backdrop-blur-xl;
+}
+
+.panel {
+  @apply rounded-[28px] border border-white/10 bg-white/[0.04] backdrop-blur-xl shadow-soft;
+}
+
+.skeleton {
+  @apply animate-pulse rounded-2xl bg-white/[0.06];
+}
