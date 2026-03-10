@@ -1,0 +1,1 @@
+using FeatureTelemetry.SampleApi.Models; namespace FeatureTelemetry.SampleApi.Services; public interface IPhiSubmissionService { Task<string> SubmitAsync(SubmitPhiFormRequest req, CancellationToken ct); }

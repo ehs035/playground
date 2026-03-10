@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fiM6oImxYzw=",
+  "dgSpecHash": "LNWNYvTPsgw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj",
+  "projectFilePath": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

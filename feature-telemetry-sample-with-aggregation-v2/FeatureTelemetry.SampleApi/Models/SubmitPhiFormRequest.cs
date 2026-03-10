@@ -1,0 +1,1 @@
+namespace FeatureTelemetry.SampleApi.Models; public sealed class SubmitPhiFormRequest { public string MemberId { get; set; } = default!; public bool HasAttachments { get; set; } }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProviderInbox.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dee2a6061a27acc9a566afacee25f57354d7a08")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProviderInbox.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProviderInbox.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

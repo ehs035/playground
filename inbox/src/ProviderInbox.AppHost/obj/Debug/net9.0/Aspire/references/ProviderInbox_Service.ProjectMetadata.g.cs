@@ -15,5 +15,5 @@ public class ProviderInbox_Service : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the ProviderInbox_Service project.
     /// </summary>
-    public string ProjectPath => """C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.Service\ProviderInbox.Service.csproj""";
+    public string ProjectPath => """C:\git\playground\inbox\src\ProviderInbox.Service\ProviderInbox.Service.csproj""";
 }

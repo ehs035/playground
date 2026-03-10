@@ -17,5 +17,5 @@ public class ProviderInbox_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.AppHost""";
+    public static string ProjectPath => """C:\git\playground\inbox\src\ProviderInbox.AppHost""";
 }

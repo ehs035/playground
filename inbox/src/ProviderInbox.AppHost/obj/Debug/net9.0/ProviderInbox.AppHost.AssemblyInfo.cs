@@ -17,15 +17,15 @@ using System.Reflection;
     "xt\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\ehs03\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.2\\tools\\e" +
     "xt\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "ProviderInbox.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\ehs03\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\tools\\Aspire.Da" +
     "shboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProviderInbox.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dee2a6061a27acc9a566afacee25f57354d7a08")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProviderInbox.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProviderInbox.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

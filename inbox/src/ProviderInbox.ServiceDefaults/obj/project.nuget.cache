@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxIFtFw84YE=",
+  "dgSpecHash": "nVHt1xtYj+w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
+  "projectFilePath": "C:\\git\\playground\\inbox\\src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ehs03\\.nuget\\packages\\google.protobuf\\3.22.5\\google.protobuf.3.22.5.nupkg.sha512",
     "C:\\Users\\ehs03\\.nuget\\packages\\grpc.core.api\\2.52.0\\grpc.core.api.2.52.0.nupkg.sha512",

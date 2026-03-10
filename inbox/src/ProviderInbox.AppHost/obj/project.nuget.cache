@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wDHm9N5fCa8=",
+  "dgSpecHash": "8sv1lJjiee0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
+  "projectFilePath": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ehs03\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.2\\aspire.dashboard.sdk.win-x64.9.5.2.nupkg.sha512",
     "C:\\Users\\ehs03\\.nuget\\packages\\aspire.hosting\\9.5.2\\aspire.hosting.9.5.2.nupkg.sha512",

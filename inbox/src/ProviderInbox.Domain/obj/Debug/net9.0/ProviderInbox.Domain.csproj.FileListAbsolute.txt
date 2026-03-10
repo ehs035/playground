@@ -20,3 +20,15 @@ C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.Domain\obj\Debug\net9.
 C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\refint\ProviderInbox.Domain.dll
 C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.pdb
 C:\Users\ehs03\OneDrive\Documents\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ref\ProviderInbox.Domain.dll
+C:\git\playground\inbox\src\ProviderInbox.Domain\bin\Debug\net9.0\ProviderInbox.Domain.deps.json
+C:\git\playground\inbox\src\ProviderInbox.Domain\bin\Debug\net9.0\ProviderInbox.Domain.dll
+C:\git\playground\inbox\src\ProviderInbox.Domain\bin\Debug\net9.0\ProviderInbox.Domain.pdb
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.AssemblyInfoInputs.cache
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.AssemblyInfo.cs
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.csproj.CoreCompileInputs.cache
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.sourcelink.json
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.dll
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\refint\ProviderInbox.Domain.dll
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ProviderInbox.Domain.pdb
+C:\git\playground\inbox\src\ProviderInbox.Domain\obj\Debug\net9.0\ref\ProviderInbox.Domain.dll

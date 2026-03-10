@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8G7MjSC4luI=",
+  "dgSpecHash": "GtjEfFWICio=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
+  "projectFilePath": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ehs03\\.nuget\\packages\\aspire.microsoft.entityframeworkcore.sqlserver\\9.5.2\\aspire.microsoft.entityframeworkcore.sqlserver.9.5.2.nupkg.sha512",
     "C:\\Users\\ehs03\\.nuget\\packages\\azure.core\\1.47.3\\azure.core.1.47.3.nupkg.sha512",

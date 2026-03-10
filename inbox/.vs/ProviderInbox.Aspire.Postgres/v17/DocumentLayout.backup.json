@@ -1,106 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\",
+  "WorkspaceRootPath": "C:\\git\\playground\\inbox\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\seeds\\seeddatahostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\seeds\\seeddatahostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|solutionrelative:src\\providerinbox.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\reprioritize\\priorityrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\reprioritize\\priorityrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\reprioritize\\inboxreprioritizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\reprioritize\\inboxreprioritizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\complete\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\complete\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\listmessages\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\listmessages\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\ingestmessage\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\ingestmessage\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\ingestmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\ingestmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\viewcounts\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\viewcounts\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\infrastructure\\migrations\\20260118123000_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\migrations\\20260118123000_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\shared\\security\\audiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\shared\\security\\audiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\shared\\security\\querystringaudiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\shared\\security\\querystringaudiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|solutionrelative:src\\providerinbox.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD5C8E3-1552-4761-B1EB-3C2C89FC0ACA}|src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.domain\\inboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD5C8E3-1552-4761-B1EB-3C2C89FC0ACA}|src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj|solutionrelative:src\\providerinbox.domain\\inboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|solutionrelative:src\\providerinbox.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\infrastructure\\backgroundjobs\\priorityreprioritizationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\backgroundjobs\\priorityreprioritizationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.apphost\\providerinbox.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.apphost\\providerinbox.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|solutionrelative:src\\providerinbox.apphost\\providerinbox.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.servicedefaults\\providerinbox.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|solutionrelative:src\\providerinbox.servicedefaults\\providerinbox.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\providerinbox.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\providerinbox.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\providerinbox.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\markread\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\markread\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\listmessages\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\infrastructure\\backgroundjobs\\priorityreprioritizationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\backgroundjobs\\priorityreprioritizationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\getmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\getmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\listmessages\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\listmessages\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\users\\ehs03\\onedrive\\documents\\inbox\\src\\providerinbox.service\\features\\inbox\\getmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\getmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\listmessages\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\listmessages\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\markread\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\markread\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\reprioritize\\inboxreprioritizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\reprioritize\\inboxreprioritizeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\reprioritize\\priorityrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\reprioritize\\priorityrulesengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\complete\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\complete\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\seeds\\seeddatahostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\seeds\\seeddatahostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\infrastructure\\migrations\\20260118123000_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\migrations\\20260118123000_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|solutionrelative:src\\providerinbox.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\ingestmessage\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\ingestmessage\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\ingestmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\ingestmessage\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\features\\inbox\\viewcounts\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\features\\inbox\\viewcounts\\endpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\shared\\security\\audiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\shared\\security\\audiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\shared\\security\\querystringaudiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\shared\\security\\querystringaudiencecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B587ABF6-6F74-4CE7-8D8E-B12716A8FD74}|src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj|solutionrelative:src\\providerinbox.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD5C8E3-1552-4761-B1EB-3C2C89FC0ACA}|src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.domain\\inboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD5C8E3-1552-4761-B1EB-3C2C89FC0ACA}|src\\ProviderInbox.Domain\\ProviderInbox.Domain.csproj|solutionrelative:src\\providerinbox.domain\\inboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEDC752A-3256-4200-8875-6104BD6DE0CD}|src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj|solutionrelative:src\\providerinbox.apphost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|c:\\git\\playground\\inbox\\src\\providerinbox.service\\infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29B204E2-6D1E-4A46-94C8-15C7AFC3045E}|src\\ProviderInbox.Service\\ProviderInbox.Service.csproj|solutionrelative:src\\providerinbox.service\\infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,137 +114,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedDataHostedService.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAewDEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T22:07:32.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AudienceContext.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T22:07:25.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
-              "RelativeToolTip": "src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T22:06:10.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "QueryStringAudienceContext.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T00:02:22.701Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.AppHost\\Program.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\Program.cs",
-              "RelativeToolTip": "src\\ProviderInbox.AppHost\\Program.cs",
+              "Title": "ProviderInbox.ServiceDefaults",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
+              "RelativeToolTip": "src\\ProviderInbox.ServiceDefaults\\ProviderInbox.ServiceDefaults.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:55:22.667Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-09T04:22:29.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InboxReprioritizeService.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:42:33.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:34:16.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:34:25.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-18T23:28:49.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "ProviderInbox.AppHost.csproj",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
               "RelativeDocumentMoniker": "src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
               "RelativeToolTip": "src\\ProviderInbox.AppHost\\ProviderInbox.AppHost.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-18T23:26:31.279Z"
+              "WhenOpened": "2026-01-18T23:26:31.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "InboxMessage.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Domain\\InboxMessage.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Domain\\InboxMessage.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Domain\\InboxMessage.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Domain\\InboxMessage.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Domain\\InboxMessage.cs",
               "RelativeToolTip": "src\\ProviderInbox.Domain\\InboxMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +156,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\Complete\\Endpoint.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAewDYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +168,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\ViewCounts\\Endpoint.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAwwCsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,11 +180,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PriorityRulesEngine.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\PriorityRulesEngine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,23 +192,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "20260118123000_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\Migrations\\20260118123000_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T22:08:42.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Models.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,35 +216,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Models.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\appsettings.json",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\appsettings.json",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-18T23:54:04.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T22:11:59.862Z"
+              "WhenOpened": "2026-01-18T23:34:25.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "InboxReprioritizeService.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\Reprioritize\\InboxReprioritizeService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:20:19.931Z"
+              "WhenOpened": "2026-01-18T23:42:33.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
+              "Title": "SeedDataHostedService.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Seeds\\SeedDataHostedService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAewDEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:07:32.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:20:42.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwEgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:20:33.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:18:56.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PriorityReprioritizationWorker.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
               "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\BackgroundJobs\\PriorityReprioritizationWorker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,75 +313,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\appsettings.json",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\appsettings.json",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-18T23:54:04.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Program.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Program.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Program.cs",
+              "DocumentIndex": 25,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Infrastructure\\AppDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:21:46.922Z"
+              "WhenOpened": "2026-01-18T23:34:16.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.AppHost\\Program.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\Program.cs",
+              "RelativeToolTip": "src\\ProviderInbox.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:55:22.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QueryStringAudienceContext.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Shared\\Security\\QueryStringAudienceContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:02:22.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProviderInbox.Service.csproj",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
               "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
               "RelativeToolTip": "src\\ProviderInbox.Service\\ProviderInbox.Service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-18T23:21:42.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\MarkRead\\Endpoint.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwCUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:20:42.127Z"
+              "WhenOpened": "2026-01-18T23:21:42.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\ListMessages\\Endpoint.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:20:33.81Z"
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\ProviderInbox.AppHost\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-18T23:28:49.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Endpoint.cs",
-              "DocumentMoniker": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
-              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
-              "ToolTip": "C:\\Users\\ehs03\\OneDrive\\Documents\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
-              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\GetMessage\\Endpoint.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAwwEAAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
+              "RelativeToolTip": "src\\ProviderInbox.ServiceDefaults\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T23:18:56.711Z"
+              "WhenOpened": "2026-01-19T22:06:10.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AudienceContext.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Shared\\Security\\AudienceContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:07:25.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T22:11:59.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Endpoint.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Features\\Inbox\\IngestMessage\\Endpoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:20:19.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProviderInbox.Service\\Program.cs",
+              "ToolTip": "C:\\git\\playground\\inbox\\src\\ProviderInbox.Service\\Program.cs",
+              "RelativeToolTip": "src\\ProviderInbox.Service\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T23:21:46.922Z"
             }
           ]
         }
