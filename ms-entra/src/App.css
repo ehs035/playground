@@ -1,0 +1,111 @@
+/* Simplified styles for Entra login UI */
+
+.app-container {
+  margin: auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 32px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: -0.03em;
+}
+
+section {
+  background-color: #02061780;
+  border-radius: 18px;
+  padding: 20px 20px 22px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.9),
+    0 0 0 0.5px rgba(148, 163, 184, 0.5);
+  backdrop-filter: blur(16px);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+
+.card {
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  padding: 16px 16px 18px;
+  background: radial-gradient(circle at 0 0, rgba(148, 163, 184, 0.35), transparent 55%);
+}
+
+.card h2 {
+  margin: 0 0 4px;
+}
+
+.card h3 {
+  margin: 16px 0 6px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 0 0 4px;
+}
+
+.error {
+  color: #fecaca;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.9rem;
+  border-radius: 999px;
+  padding: 8px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  cursor: pointer;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+button.primary {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(129, 140, 248, 0.6), transparent 55%),
+    radial-gradient(circle at 90% 100%, rgba(96, 165, 250, 0.5), transparent 55%);
+  color: white;
+}
+
+button.secondary {
+  background-color: transparent;
+  color: #e5e7eb;
+}
+
+button:hover {
+  border-color: rgba(129, 140, 248, 0.9);
+  transform: translateY(-1px);
+  box-shadow:
+    0 22px 50px rgba(15, 23, 42, 0.95),
+    0 0 0 1px rgba(15, 23, 42, 0.95),
+    0 0 0 0.5px rgba(129, 140, 248, 0.75);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 14px 32px rgba(15, 23, 42, 0.9),
+    0 0 0 1px rgba(15, 23, 42, 0.9),
+    0 0 0 0.5px rgba(94, 92, 179, 0.75);
+}
