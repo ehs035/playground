@@ -7,17 +7,7 @@ import {
 } from '@azure/msal-react'
 import { InteractionStatus, type AccountInfo } from '@azure/msal-browser'
 import './App.css'
-import { graphConfig, loginRequest } from './authConfig'
-
-type GraphDirectoryObject = {
-  id?: string
-  displayName?: string
-  '@odata.type'?: string
-}
-
-type GraphMemberOfResponse = {
-  value: GraphDirectoryObject[]
-}
+import { apiConfig, loginRequest } from './authConfig'
 
 function SignInButton() {
   const { instance } = useMsal()
@@ -56,18 +46,23 @@ function useActiveAccount(): AccountInfo | null {
   return account ?? null
 }
 
-function useGraphRolesAndGroups() {
+type MeResponse = {
+  name: string
+  roles: string[]
+  groups: string[]
+  customAttribute?: string
+}
+
+function useApiMe() {
   const { instance, inProgress } = useMsal()
   const account = useActiveAccount()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [groups, setGroups] = useState<GraphDirectoryObject[]>([])
-  const [roles, setRoles] = useState<GraphDirectoryObject[]>([])
+  const [data, setData] = useState<MeResponse | null>(null)
 
   useEffect(() => {
     if (!account) {
-      setGroups([])
-      setRoles([])
+      setData(null)
       return
     }
     if (inProgress !== InteractionStatus.None) {
@@ -84,7 +79,7 @@ function useGraphRolesAndGroups() {
           account,
         })
 
-        const res = await fetch(graphConfig.graphMemberOfEndpoint, {
+        const res = await fetch(`${apiConfig.baseUrl}${apiConfig.meEndpoint}`, {
           headers: {
             Authorization: `Bearer ${response.accessToken}`,
           },
@@ -95,17 +90,8 @@ function useGraphRolesAndGroups() {
           throw new Error(`Graph error ${res.status}: ${text}`)
         }
 
-        const data: GraphMemberOfResponse = await res.json()
-
-        const groupsData = data.value.filter(
-          (item) => item['@odata.type']?.includes('group') ?? false,
-        )
-        const rolesData = data.value.filter(
-          (item) => item['@odata.type']?.includes('appRoleAssignment') ?? false,
-        )
-
-        setGroups(groupsData)
-        setRoles(rolesData)
+        const json: MeResponse = await res.json()
+        setData(json)
       } catch (e) {
         const message = e instanceof Error ? e.message : String(e)
         setError(message)
@@ -117,12 +103,12 @@ function useGraphRolesAndGroups() {
     void fetchData()
   }, [account, inProgress, instance])
 
-  return { loading, error, groups, roles }
+  return { loading, error, data }
 }
 
 function UserInfo() {
   const account = useActiveAccount()
-  const { loading, error, groups, roles } = useGraphRolesAndGroups()
+  const { loading, error, data } = useApiMe()
 
   if (!account) {
     return null
@@ -132,31 +118,41 @@ function UserInfo() {
     <div className="card">
       <h2>Signed in as</h2>
       <p>
-        <strong>{account.name}</strong>
+        <strong>{data?.name ?? account.name}</strong>
       </p>
       <p>{account.username}</p>
 
       <h3>Roles</h3>
-      {loading && <p>Loading roles and groups...</p>}
+      {loading && <p>Loading roles, groups and attributes...</p>}
       {error && <p className="error">{error}</p>}
-      {!loading && !error && roles.length === 0 && <p>No roles found for this user.</p>}
-      {!loading && roles.length > 0 && (
+      {!loading && !error && (data?.roles?.length ?? 0) === 0 && (
+        <p>No roles found for this user.</p>
+      )}
+      {!loading && (data?.roles?.length ?? 0) > 0 && (
         <ul>
-          {roles.map((role) => (
-            <li key={role.id ?? role.displayName}>{role.displayName ?? role.id}</li>
+          {data?.roles.map((role) => (
+            <li key={role}>{role}</li>
           ))}
         </ul>
       )}
 
       <h3>Groups</h3>
-      {!loading && !error && groups.length === 0 && <p>No groups found for this user.</p>}
-      {!loading && groups.length > 0 && (
+      {!loading && !error && (data?.groups?.length ?? 0) === 0 && (
+        <p>No groups found for this user.</p>
+      )}
+      {!loading && (data?.groups?.length ?? 0) > 0 && (
         <ul>
-          {groups.map((group) => (
-            <li key={group.id ?? group.displayName}>{group.displayName ?? group.id}</li>
+          {data?.groups.map((group) => (
+            <li key={group}>{group}</li>
           ))}
         </ul>
       )}
+
+      <h3>Custom attribute</h3>
+      {!loading && !error && !data?.customAttribute && (
+        <p>No custom attribute found for this user.</p>
+      )}
+      {data?.customAttribute && <p>{data.customAttribute}</p>}
     </div>
   )
 }

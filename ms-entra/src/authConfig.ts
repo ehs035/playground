@@ -44,14 +44,12 @@ export const msalConfig: Configuration = {
   },
 }
 
-// Basic scopes to sign-in the user and read profile.
 export const loginRequest = {
-  scopes: ['User.Read', 'GroupMember.Read.All'],
+  scopes: [import.meta.env.VITE_API_SCOPE ?? 'api://YOUR_API_CLIENT_ID/access_as_user'],
 }
 
-// Microsoft Graph endpoints used in this sample.
-export const graphConfig = {
-  graphMeEndpoint: 'https://graph.microsoft.com/v1.0/me',
-  graphMemberOfEndpoint: 'https://graph.microsoft.com/v1.0/me/memberOf',
+export const apiConfig = {
+  baseUrl: import.meta.env.VITE_API_BASE ?? 'https://localhost:5001',
+  meEndpoint: '/api/me',
 }
 
