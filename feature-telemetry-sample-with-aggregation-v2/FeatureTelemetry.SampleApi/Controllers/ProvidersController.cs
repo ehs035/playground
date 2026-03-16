@@ -14,7 +14,7 @@ public sealed class ProvidersController : TelemetryControllerBase
     }
 
     [HttpPost("search")]
-    [FeatureTelemetry("Search", "Provider Search MVC")]
+    [FeatureTelemetry("Search", "Ralfs wOLRD")]
     public async Task<ActionResult<ProviderSearchResponse>> Search([FromBody] ProviderSearchRequest request, CancellationToken ct)
     {
         var response = await ExecuteFeatureAsync(async token => {

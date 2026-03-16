@@ -7,11 +7,11 @@ import { LogLevel, type Configuration } from '@azure/msal-browser'
 
 export const msalConfig: Configuration = {
   auth: {
-    clientId: import.meta.env.VITE_AAD_CLIENT_ID ?? 'ENTER_YOUR_CLIENT_ID',
+    clientId: import.meta.env.VITE_AAD_CLIENT_ID ?? '3dcd5b92-d5ff-4b7f-913e-a23125ba5b2c',
     authority:
       import.meta.env.VITE_AAD_AUTHORITY ??
-      'https://login.microsoftonline.com/ENTER_YOUR_TENANT_ID',
-    redirectUri: import.meta.env.VITE_AAD_REDIRECT_URI ?? window.location.origin,
+      'https://login.microsoftonline.com/fedf3975-ea80-43b4-a875-9c3d9cad1b8e',
+    redirectUri: "http://localhost:5173/" ?? window.location.origin,
     postLogoutRedirectUri:
       import.meta.env.VITE_AAD_POST_LOGOUT_REDIRECT_URI ?? window.location.origin,
   },
@@ -45,7 +45,7 @@ export const msalConfig: Configuration = {
 }
 
 export const loginRequest = {
-  scopes: [import.meta.env.VITE_API_SCOPE ?? 'api://YOUR_API_CLIENT_ID/access_as_user'],
+  scopes: [import.meta.env.VITE_API_SCOPE ?? 'https://deviehporg.onmicrosoft.com/3dcd5b92-d5ff-4b7f-913e-a23125ba5b2c/User.Read'],
 }
 
 export const apiConfig = {
