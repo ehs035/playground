@@ -1,48 +1,68 @@
 using System.Security.Claims;
+using BrokerPortal.Api.Models;
+using Microsoft.Extensions.Options;
+using Microsoft.Identity.Web;
 
 namespace BrokerPortal.Api.Services;
 
 public sealed class ClaimEnricher
 {
-    private readonly IUserContextService _userContextService;
+	private readonly IUserContextService _userContextService;
+	private readonly string? _appIdNoHyphens;
 
-    public ClaimEnricher(IUserContextService userContextService)
-    {
-        _userContextService = userContextService;
-    }
 
-    public async Task EnrichAsync(ClaimsPrincipal principal, HttpContext httpContext, CancellationToken cancellationToken = default)
-    {
-        if (principal.Identity is not ClaimsIdentity identity || !identity.IsAuthenticated)
-            return;
+	public ClaimEnricher(IUserContextService userContextService, IOptionsMonitor<MicrosoftIdentityOptions> identityOptions)
+	{
+		_userContextService = userContextService;
+		var clientId = identityOptions.CurrentValue.ClientId;
+		_appIdNoHyphens = NormalizeAppId(clientId);
+	}
 
-        var oid = principal.FindFirstValue("oid");
-        if (string.IsNullOrWhiteSpace(oid))
-            return;
+	public async Task EnrichAsync(ClaimsPrincipal principal, HttpContext httpContext, CancellationToken cancellationToken = default)
+	{
 
-        var userContext = await _userContextService.GetCurrentAsync(oid, httpContext, cancellationToken);
-        if (userContext is null)
-            return;
+		if (principal.Identity is not ClaimsIdentity identity || !identity.IsAuthenticated)
+			return;
 
-        AddIfMissing(identity, "agency_id", userContext.AgencyId?.ToString());
-        AddIfMissing(identity, "agency_name", userContext.AgencyName);
-        AddIfMissing(identity, "broker_id", userContext.BrokerId?.ToString());
-        AddIfMissing(identity, "broker_name", userContext.BrokerName);
-        AddIfMissing(identity, "is_agency_admin", userContext.IsAgencyAdmin.ToString().ToLowerInvariant());
-        AddIfMissing(identity, "is_good_standing", userContext.IsGoodStanding.ToString().ToLowerInvariant());
-        AddIfMissing(identity, "contract_start", userContext.ContractStart?.ToString("O"));
-        AddIfMissing(identity, "contract_end", userContext.ContractEnd?.ToString("O"));
+		// Read "extn.*" (preferred) or fall back to "extension_<appId>_*"
+		var agencyId = GetFirst(principal, "extn.agencyId")
+						?? GetFirst(principal, $"extension_{_appIdNoHyphens}_agencyId");
 
-        if (userContext.IsAgencyAdmin)
-            AddIfMissing(identity, ClaimTypes.Role, "AgencyAdmin");
-    }
+		var brokerId = GetFirst(principal, "extn.brokerId")
+						?? GetFirst(principal, $"extension_{_appIdNoHyphens}_brokerId");
 
-    private static void AddIfMissing(ClaimsIdentity identity, string type, string? value)
-    {
-        if (string.IsNullOrWhiteSpace(value))
-            return;
+		var userLevel = GetFirst(principal, "extn.userLevel")
+						?? GetFirst(principal, $"extension_{_appIdNoHyphens}_userLevel");
 
-        if (!identity.HasClaim(c => c.Type == type))
-            identity.AddClaim(new Claim(type, value));
-    }
+		// Add normalized claims if present (avoid duplicates)
+		AddIfMissing(identity, "agencyId", agencyId);
+		AddIfMissing(identity, "brokerId", brokerId);
+		AddIfMissing(identity, "role", userLevel);
+
+	}
+
+	private static void AddIfMissing(ClaimsIdentity identity, string type, string? value)
+	{
+		if (string.IsNullOrWhiteSpace(value))
+			return;
+
+		if (!identity.HasClaim(c => c.Type == type))
+			identity.AddClaim(new Claim(type, value));
+	}
+
+
+	private static string? GetFirst(ClaimsPrincipal principal, string claimType)
+		=> principal.FindAll(claimType).Select(c => c.Value).FirstOrDefault();
+
+
+	private static string? NormalizeAppId(string? appId)
+	{
+		if (string.IsNullOrWhiteSpace(appId))
+			return null;
+
+		// Remove hyphens and lower-case to match AAD extension claim naming conventions
+		return appId.Replace("-", "").ToLowerInvariant();
+	}
+
+
 }

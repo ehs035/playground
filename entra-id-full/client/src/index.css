@@ -1,0 +1,104 @@
+/* src/index.css */
+
+/* Tailwind v4 entry */
+@import "tailwindcss";
+
+/* Define custom theme tokens (Tailwind v4) */
+@theme {
+  /* Brand color scale (indigo-ish) */
+  --color-brand:        #2563eb;
+  --color-brand-50:     #eef2ff;
+  --color-brand-100:    #e0e7ff;
+  --color-brand-200:    #c7d2fe;
+  --color-brand-300:    #a5b4fc;
+  --color-brand-400:    #818cf8;
+  --color-brand-500:    #6366f1;
+  --color-brand-600:    #2563eb;
+  --color-brand-700:    #1e40af;
+  --color-brand-800:    #1e3a8a;
+  --color-brand-900:    #1c2463;
+
+  --color-neutral-900:  #0a0a0a;
+}
+
+/* Base: smooth rendering + dark mode defaults */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-neutral-900 dark:text-gray-100;
+  }
+}
+
+/* Components */
+@layer components {
+  .app-container { @apply min-h-screen flex flex-col; }
+
+  .header {
+    @apply sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-gray-200
+           dark:bg-neutral-950/80 dark:border-neutral-800;
+  }
+
+  .header-inner {
+    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-between;
+  }
+
+  .title { @apply text-xl sm:text-2xl font-semibold tracking-tight; }
+  .subtitle { @apply text-sm text-gray-600 dark:text-gray-400; }
+  .section { @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8; }
+  .actions { @apply flex gap-3 items-center; }
+
+  .card {
+    @apply rounded-xl border border-gray-200 bg-white shadow-sm p-5
+           dark:border-neutral-800 dark:bg-neutral-950;
+  }
+
+  .section-title { @apply mt-6 mb-2 text-lg font-semibold; }
+  .error-text { @apply text-sm text-red-600 dark:text-red-500; }
+  .list { @apply mt-2 grid gap-2 sm:grid-cols-2; }
+
+  .badge {
+    @apply inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 text-sm
+           dark:border-neutral-800 dark:bg-neutral-900;
+  }
+
+  /* Buttons: apply utilities directly (do NOT @apply .btn) */
+
+  /* Shared button base (not used via @apply elsewhere—only here) */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2
+           focus:ring-brand dark:focus:ring-offset-neutral-900;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2
+           focus:ring-brand dark:focus:ring-offset-neutral-900
+           bg-brand text-white hover:bg-brand/90 active:bg-brand/80 shadow-sm;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2
+           focus:ring-brand dark:focus:ring-offset-neutral-900
+           bg-gray-100 text-gray-900 hover:bg-gray-200 active:bg-gray-300
+           dark:bg-neutral-800 dark:text-gray-100 dark:hover:bg-neutral-700;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2
+           focus:ring-brand dark:focus:ring-offset-neutral-900
+           bg-transparent hover:bg-gray-100 dark:hover:bg-neutral-800;
+  }
+
+  .pill {
+    @apply rounded-full bg-brand-50 text-brand-700 px-2 py-1 text-xs
+           dark:bg-brand-900/30 dark:text-brand-300;
+  }
+
+  .mono { @apply font-mono text-xs text-gray-700 dark:text-gray-300; }
+}

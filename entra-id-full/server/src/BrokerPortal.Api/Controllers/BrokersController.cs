@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace BrokerPortal.Api.Controllers;
 
 [ApiController]
-[Route("api/agencies/{agencyId:guid}/brokers")]
+[Route("api/agencies/{agencyId}/brokers")]
 public sealed class BrokersController : ControllerBase
 {
-    [HttpGet("{brokerId:guid}")]
+    [HttpGet("{brokerId}")]
     [Authorize(Policy = "BrokerOfAgency")]
     public IActionResult GetBroker(Guid agencyId, Guid brokerId)
     {

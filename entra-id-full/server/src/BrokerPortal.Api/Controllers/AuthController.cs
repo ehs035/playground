@@ -1,3 +1,5 @@
+using System.Reflection.Metadata;
+using BrokerPortal.Api.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,12 +13,20 @@ public sealed class AuthController : ControllerBase
     [Authorize]
     public IActionResult Me()
     {
-        var claims = User.Claims.Select(c => new { c.Type, c.Value });
+		//var claims = User.Claims.Select(c => new { c.Type, c.Value });
 
-        return Ok(new
-        {
-            message = "Token validated by Microsoft Entra ID and claims enriched from SQL/cache.",
-            claims
-        });
-    }
+		//return Ok(new
+		//{
+		//    message = "Token validated by Microsoft Entra ID and claims enriched from SQL/cache.",
+		//    claims
+		//});
+		var UserContext = User.GetClaimsContext(); // default claim names
+		return Ok(new
+		{
+			UserContext
+
+		});
+
+	}
 }
+

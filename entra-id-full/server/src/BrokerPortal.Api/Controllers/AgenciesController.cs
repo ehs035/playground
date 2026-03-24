@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BrokerPortal.Api.Controllers;
 
@@ -7,14 +8,14 @@ namespace BrokerPortal.Api.Controllers;
 [Route("api/agencies")]
 public sealed class AgenciesController : ControllerBase
 {
-    [HttpGet("{agencyId:guid}")]
+
+    [HttpGet("current")]
     [Authorize(Policy = "AgencyAccess")]
-    public IActionResult GetAgency(Guid agencyId)
+    public IActionResult Current()
     {
-        return Ok(new
-        {
-            agencyId,
-            message = "Authorized to access agency resource."
-        });
+        // agencyId resolved from token claims automatically
+        var agencyId = User.FindFirstValue("agency_id");
+        return Ok(new { agencyId, message = "Current agency profile." });
     }
+
 }
